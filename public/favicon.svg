@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#071B2D"/>
+  <!-- Subtle roof grid lines -->
+  <path d="M12 46h40" stroke="#102F49" stroke-width="2" stroke-linecap="round"/>
+  <!-- Primary Roof pitch -->
+  <path d="M32 14L10 38h8l14-16 14 16h8L32 14z" fill="#F5C52E"/>
+  <!-- Overlapping secondary gable with depth -->
+  <path d="M32 20L18 36h6l8-9.5 8 9.5h6L32 20z" fill="#FFD653"/>
+  <!-- Home foundation & beam -->
+  <path d="M22 39h20v9H22z" fill="#0B263D" stroke="#102F49" stroke-width="1.5"/>
+  <!-- Chimney / architectural detail -->
+  <path d="M41 19v8l5 5.5V19h-5z" fill="#DCE3E9" opacity="0.8"/>
+  <!-- Gold apex accent dot -->
+  <circle cx="32" cy="14" r="2.5" fill="#FFFFFF"/>
+</svg>

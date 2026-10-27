@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #071B2D;
+    --color-navy-dark: #051422;
+    --color-navy-secondary: #0B263D;
+    --color-navy-surface: #102F49;
+    --color-charcoal: #1C2934;
+    --color-gold: #F5C52E;
+    --color-gold-hover: #FFD653;
+    --color-gold-muted: rgba(245, 197, 46, 0.15);
+    --color-offwhite: #F5F7F8;
+    --color-lightgray: #E7EBEF;
+    --color-mediumgray: #647383;
+    --color-body: #293847;
+    --color-body-muted: #5D6B78;
+    --color-success: #287A58;
+    --color-divider: #DCE3E9;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--color-body);
+    background-color: var(--color-offwhite);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+.font-heading {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

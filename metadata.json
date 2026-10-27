@@ -1,0 +1,6 @@
+{
+  "name": "Bay Area Roof Master",
+  "description": "Get a free written roofing bid from Bay Area Roof Master. Explore roof replacement, roof repair, inspections, and leak solutions across the nine-county Bay Area.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
